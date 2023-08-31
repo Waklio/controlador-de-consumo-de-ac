@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("./imagens/salatcc.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /*background-color: #5cabc1;*/
+  }
+  .content {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #dfd5d5da;
+    box-shadow: 0px 2px 4px rgba(214, 23, 23, 0.1);
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .button {
+    padding: 10px 20px; 
+    background-color: #a01a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      display: flex;
+      align-items: center;
+     
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .button-container {
+      flex-direction: column; 
+      font-size: 12px;
+      margin: 20px;
+  
+    }
+
+  }
+ 
+
+
+
