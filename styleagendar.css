@@ -10,7 +10,8 @@ body {
     background-size: cover;
     /*background-color: #5cabc1;*/
   }
-  .content {
+
+  .agendar {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -29,7 +30,7 @@ body {
   }
   .button {
     padding: 10px 20px; 
-    background-color: #a01a1a;
+    background-color: #1c6d99;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -40,6 +41,17 @@ body {
     transform: scale(1.05); /* Aplica o zoom */
     box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
   }
+
+  .Home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #1c6d99;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 
   @media screen and (max-width: 600px) {
     .container {
@@ -59,7 +71,3 @@ body {
     }
   }
   
-
- 
-
-    

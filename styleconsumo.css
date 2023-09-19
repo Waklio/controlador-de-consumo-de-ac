@@ -10,7 +10,8 @@ body {
     background-size: cover;
     /*background-color: #5cabc1;*/
   }
-  .content {
+
+  .consumo {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -18,28 +19,23 @@ body {
     background-color: #dfd5d5da;
     box-shadow: 0px 2px 4px rgba(214, 23, 23, 0.1);
   } 
+
   h1 {
     font-size: 24px;
     margin-bottom: 20px;
   }
-  .button-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-  .button {
-    padding: 10px 20px; 
-    background-color: #a01a1a;
+
+  .Home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #1c6d99;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-  }
+}
 
-  .button:hover {
-    transform: scale(1.05); /* Aplica o zoom */
-    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
-  }
 
   @media screen and (max-width: 600px) {
     .container {
@@ -59,7 +55,3 @@ body {
     }
   }
   
-
- 
-
-    
