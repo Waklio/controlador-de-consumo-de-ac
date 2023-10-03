@@ -30,9 +30,10 @@ body {
     top: 10px;
     left: 10px;
     padding: 10px 20px;
-    background-color: #1c6d99;
+    background-color: #a01a1a;
     color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 

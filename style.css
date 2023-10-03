@@ -27,7 +27,7 @@ body {
     gap: 10px;
     justify-content: center;
   }
-  .button {
+  #button {
     padding: 10px 20px; 
     background-color: #a01a1a;
     color: #fff;
