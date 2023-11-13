@@ -27,7 +27,7 @@ body {
     gap: 10px;
     justify-content: center;
   }
-  #button {
+  #ligar {
     padding: 10px 20px; 
     background-color: #a01a1a;
     color: #fff;
@@ -35,8 +35,49 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+  #desligar {
+    padding: 10px 20px; 
+    background-color: #a01a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #verificarconsumo {
+    padding: 10px 20px; 
+    background-color: #a01a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #agendarhorario{
+    padding: 10px 20px; 
+    background-color: #a01a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #ligar:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
+  }
+  #desligar:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
+  }
+  #verificarconsumo:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
+  }
+  #agendarhorario:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
+  }
+  
 
-  .button:hover {
+  #button:hover {
     transform: scale(1.05); /* Aplica o zoom */
     box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
   }

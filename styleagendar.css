@@ -28,7 +28,23 @@ body {
     gap: 10px;
     justify-content: center;
   }
-  .button {
+  #manha{
+    padding: 10px 20px; 
+    background-color: #a01a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #tarde {
+    padding: 10px 20px; 
+    background-color: #a01a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #noite {
     padding: 10px 20px; 
     background-color: #a01a1a;
     color: #fff;
@@ -37,7 +53,15 @@ body {
     cursor: pointer;
   }
 
-  .button:hover {
+  #manha:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
+  }
+  #tarde:hover {
+    transform: scale(1.05); /* Aplica o zoom */
+    box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
+  }
+  #noite:hover {
     transform: scale(1.05); /* Aplica o zoom */
     box-shadow: 0px 3px 5px rgba(0, 0 0, 0.2); /* Sombra */
   }
@@ -53,6 +77,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+ 
+
 
   @media screen and (max-width: 600px) {
     .container {
